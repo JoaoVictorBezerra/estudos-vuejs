@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <SintaxesVue /> -->
+  <ContadorVue/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import SintaxesVue from './components/SintaxesVue.vue'
+import ContadorVue from './components/ContadorVue.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // SintaxesVue
+    ContadorVue
   }
 }
 </script>
