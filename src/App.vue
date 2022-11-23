@@ -1,18 +1,23 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <SintaxesVue /> -->
-  <ContadorVue/>
+  <!-- <ContadorVue/> -->
+  <!-- <EstilizacaoVue /> -->
+  <RenderizacaoLista />
 </template>
 
 <script>
 // import SintaxesVue from './components/SintaxesVue.vue'
-import ContadorVue from './components/ContadorVue.vue'
-
+// import ContadorVue from './components/ContadorVue.vue'
+// import EstilizacaoVue from './components/EstilizacaoVue.vue';
+// import RenderizacaoCondicional from './components/RenderizacaoCondicional.vue';
+  import RenderizacaoLista from './components/RenderizacaoLista.vue'
 export default {
   name: 'App',
   components: {
-    // SintaxesVue
-    ContadorVue
+    // EstilizacaoVue
+    RenderizacaoLista
+
   }
 }
 </script>
